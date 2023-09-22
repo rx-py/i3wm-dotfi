@@ -2,5 +2,6 @@
 
 #### config files for reddit post
 
-![wallpaper config](~/Documents/wallpaper/screenshot/unixpxrn.png)
+
+![wallpaper config](https://i.redd.it/41p9p88hlrpb1.png))
 
