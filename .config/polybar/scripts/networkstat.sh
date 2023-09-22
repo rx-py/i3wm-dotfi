@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# both of these scripts basically do the same thing,
-# just trying to figure out which one would work better with [wired-network] module
-
 # Check if the network interface is up
 # if ip link show enp116s0f1u1 | grep "state UP" > /dev/null; then
     # Network is up, enable the module

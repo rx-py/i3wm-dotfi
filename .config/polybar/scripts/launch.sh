@@ -10,6 +10,9 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 MONITORS=$(xrandr --query | grep " connected" | cut -d" " -f1)
 
 MONITORS=$MONITORS polybar mainbar-poly;
+# MONITOR=$MONITORS polybar 2-bottom? &
+# MONITOR=$MONITORS polybar 3;
+# polybar mainbar-poly ~/.config/polybar/config.ini & disown
 
 # Launch Polybar, using default config location ~/.config/polybar/config.ini
 polybar mainbar-poly 2>&1 | tee -a ~/.config/polybar/config.ini & disown
