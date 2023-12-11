@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # i3wm-dotfi
 
 
@@ -25,7 +24,7 @@ This repo holds the dotfiles for my i3-wm setup on Arch Linux which I intend to 
 To use these configuration files, you need to have Hyprland and some dependences installed on your system. You can install it by running the following command:
 
 ```bash
-yay -Syu base-devel hyprland feh pywal-git dunst zsh pamixer playerctl brightnessctl kitty neofetch thunar rofi ranger pulseaudio alsa-utils neovim vim git firefox xrander network-manager-applet networkmanager pavucontrol waybar swaybg swaylock sddm gtop flameshot firewalld eza cbonsai-git duf cava bluez-utils bluez blueman bitwarden asciiquarium --noconfirm --needed
+yay -Syu base-devel feh pywal-git dunst zsh pamixer playerctl brightnessctl kitty neofetch thunar rofi ranger pulseaudio alsa-utils neovim vim git firefox xrander network-manager-applet networkmanager pavucontrol waybar swaybg swaylock sddm gtop flameshot firewalld eza cbonsai-git duf cava bluez-utils bluez blueman bitwarden asciiquarium --noconfirm --needed
 ```
 
 
@@ -36,7 +35,7 @@ To use these configuration files, simply copy the contents of this repository to
 
 ```bash
 git clone https://github.com/rx-py/i3wm-dotfi.git 
-cd hyprland-dotfi
+cd i3wm-dotfi
 ```
 
 ```bash
@@ -52,12 +51,3 @@ The following configuration files are included in this repository:
 - `wal`: This folder would be where all images are stored
 
 
-||||||| empty tree
-=======
-## archlx_config
-
-#### config files for reddit post
-
-
-![wallpaper config](https://i.redd.it/41p9p88hlrpb1.png)
->>>>>>> 539e54bea3098475d65ff6a7b99dce78866db5e1
