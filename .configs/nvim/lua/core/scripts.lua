@@ -6,11 +6,8 @@
 -- ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
--- Neovim Lua Config File by Arfan Zubi
 -- SCRIPTS
 
--- Colorscheme
-cmd("colorscheme everforest")
 
 -- Format on save
 -- LSP servers are needed for this to work

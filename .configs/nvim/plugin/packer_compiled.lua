@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/rx-py/.cache/nvim/packer_hererocks/2.1.1700008891/share/lua/5.1/?.lua;/home/rx-py/.cache/nvim/packer_hererocks/2.1.1700008891/share/lua/5.1/?/init.lua;/home/rx-py/.cache/nvim/packer_hererocks/2.1.1700008891/lib/luarocks/rocks-5.1/?.lua;/home/rx-py/.cache/nvim/packer_hererocks/2.1.1700008891/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/rx-py/.cache/nvim/packer_hererocks/2.1.1700008891/lib/lua/5.1/?.so"
+local package_path_str = "/home/rx-py/.cache/nvim/packer_hererocks/2.1.1702233742/share/lua/5.1/?.lua;/home/rx-py/.cache/nvim/packer_hererocks/2.1.1702233742/share/lua/5.1/?/init.lua;/home/rx-py/.cache/nvim/packer_hererocks/2.1.1702233742/lib/luarocks/rocks-5.1/?.lua;/home/rx-py/.cache/nvim/packer_hererocks/2.1.1702233742/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/rx-py/.cache/nvim/packer_hererocks/2.1.1702233742/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -104,11 +104,6 @@ _G.packer_plugins = {
     path = "/home/rx-py/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
-  ["everforest-nvim"] = {
-    loaded = true,
-    path = "/home/rx-py/.local/share/nvim/site/pack/packer/start/everforest-nvim",
-    url = "https://github.com/neanias/everforest-nvim"
-  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/home/rx-py/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
@@ -133,6 +128,12 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rx-py/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["neovim-ayu"] = {
+    config = { "\27LJ\2\n/\0\0\3\0\2\0\0056\0\0\0'\2\1\0B\0\2\2B\0\1\1K\0\1\0\16colorscheme\frequire\0" },
+    loaded = true,
+    path = "/home/rx-py/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -227,6 +228,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: neovim-ayu
+time([[Config for neovim-ayu]], true)
+try_loadstring("\27LJ\2\n/\0\0\3\0\2\0\0056\0\0\0'\2\1\0B\0\2\2B\0\1\1K\0\1\0\16colorscheme\frequire\0", "config", "neovim-ayu")
+time([[Config for neovim-ayu]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

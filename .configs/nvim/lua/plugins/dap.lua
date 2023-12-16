@@ -6,7 +6,6 @@
 -- ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
--- Neovim Lua Config File by Arfan Zubi
 -- DEBUG ADAPTER PROTOCOL SETUP
 
 local dap = require("dap")

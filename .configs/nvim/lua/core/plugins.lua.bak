@@ -6,7 +6,6 @@
 -- ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
--- Neovim Lua Config File by Arfan Zubi
 -- PLUGINS
 
 return require("packer").startup(function(use)
@@ -72,6 +71,12 @@ return require("packer").startup(function(use)
         "williamboman/mason.nvim",           -- LSP packet manager
         "williamboman/mason-lspconfig.nvim", -- lspconfig integration
         "neovim/nvim-lspconfig",             -- LSP configuration
+    })
+
+    use({
+        "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig",
     })
 
     ------- Debugging

@@ -6,7 +6,6 @@
 -- ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║
 -- ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝
 --
--- Neovim Lua Config File by Arfan Zubi
 -- PLUGINS
 
 return require("packer").startup(function(use)
@@ -19,12 +18,18 @@ return require("packer").startup(function(use)
         requires = { "nvim-tree/nvim-web-devicons" },
     })
 
-    use("neanias/everforest-nvim") -- Everforest theme
+    use({
+        "Shatur/neovim-ayu",
+        config = function()
+            require('colorscheme')() -- function to set Ayu theme in colorscheme.lua
+        end,
+    })
 
     use({
         "nvim-lualine/lualine.nvim", -- Status line
         requires = { "kyazdani42/nvim-web-devicons", opt = true },
     })
+
 
     -------- Neovim Tools
     use({
@@ -69,9 +74,9 @@ return require("packer").startup(function(use)
 
     ------- LSP
     use({
-        "williamboman/mason.nvim",           -- LSP packet manager
-        "williamboman/mason-lspconfig.nvim", -- lspconfig integration
-        "neovim/nvim-lspconfig",             -- LSP configuration
+        "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig",
     })
 
     ------- Debugging
