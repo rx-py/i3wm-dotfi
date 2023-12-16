@@ -14,7 +14,7 @@ This repo holds the dotfiles for my i3-wm setup on Arch Linux which I intend to 
 
 
 ## Screenshots
-![Screenshot](wal/nfscreen.png)
+![Screenshot](wal/i3screen.png)
 ![Screenshot](wal/page2.png)
 ![Screenshot](wal/wlogout.png)
 
@@ -24,7 +24,7 @@ This repo holds the dotfiles for my i3-wm setup on Arch Linux which I intend to 
 To use these configuration files, you need to have Hyprland and some dependences installed on your system. You can install it by running the following command:
 
 ```bash
-yay -Syu base-devel feh pywal-git dunst zsh pamixer playerctl brightnessctl kitty neofetch thunar rofi ranger pulseaudio alsa-utils neovim vim git firefox xrander network-manager-applet networkmanager pavucontrol waybar swaybg swaylock sddm gtop flameshot firewalld eza cbonsai-git duf cava bluez-utils bluez blueman bitwarden asciiquarium --noconfirm --needed
+yay -Syu base-devel feh pywal-git dunst zsh pamixer playerctl brightnessctl kitty neofetch thunar rofi ranger pulseaudio alsa-utils neovim vim git firefox xrander network-manager-applet networkmanager pavucontrol nitrogen polybar sddm gtop flameshot firewalld eza cbonsai-git duf cava bluez-utils bluez blueman bitwarden asciiquarium --noconfirm --needed
 ```
 
 
@@ -51,3 +51,5 @@ The following configuration files are included in this repository:
 - `wal`: This folder would be where all images are stored
 
 
+
+nvim theme = [ayu-dark](https://github.com/Shatur/neovim-ayu)
