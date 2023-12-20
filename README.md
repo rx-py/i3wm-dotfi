@@ -13,6 +13,8 @@
 This repo holds the dotfiles for my i3-wm setup on Arch Linux which I intend to keep adding on this.
 
 
+
+
 ## Screenshots
 ![Screenshot](wal/i3screen.png)
 ![Screenshot](wal/page2.png)
@@ -21,16 +23,19 @@ This repo holds the dotfiles for my i3-wm setup on Arch Linux which I intend to 
 
 ## Installation
 
-To use these configuration files, you need to have i3-window managger,D                     ????????????????????????????????????????????????? and some dependences installed on your system. You can install it by running the following command:
+To use these configuration files, you need to have i3-window manager and some other needed dependences installed on your system. You can install it by running the following command:
 
 ```bash
-yay -Syu base-devel feh pywal-git dunst zsh pamixer playerctl brightnessctl kitty neofetch thunar rofi ranger pulseaudio alsa-utils neovim vim git firefox xrander network-manager-applet networkmanager pavucontrol nitrogen polybar sddm gtop flameshot firewalld eza cbonsai-git duf cava bluez-utils bluez blueman bitwarden asciiquarium --noconfirm --needed
+yay -Syu base-devel NetworkManager network-manager-applet vim feh dunst zsh pamixer playerctl brightnessctl kitty neofetch thunar rofi ranger pulseaudio alsa-utils git firefox xrander pavucontrol nitrogen polybar sddm gtop flameshot firewalld eza cbonsai-git duf cava bluez-utils bluez blueman bitwarden asciiquarium --noconfirm --needed
 ```
 
 
 ## Usage
 
 To use these configuration files, simply copy the contents of this repository to which ever directory you would like.
+
+Just an additional info, the third screenshot is of wlogout. You would notice that there are two logout buttons but that's just because wlogout is configured to work with both hyprland and i3-wm.
+
 
 
 ```bash
@@ -53,3 +58,4 @@ The following configuration files are included in this repository:
 
 
 nvim theme = [ayu-dark](https://github.com/Shatur/neovim-ayu)
+But from the screenshots, I have [transparency](https://github.com/xiyaowong/transparent.nvim) toggled so the ayu-dark theme isn't accuratelydisplayed. 
