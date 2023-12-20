@@ -3,7 +3,7 @@
 
 
 # Background Image
-# IMAGE="$HOME/Documents/wallpapers/wallpaper.png"
+# IMAGE="$HOME/Documents/wallpapers/arch/archtv.png"
 
 # Colors
 bg='1e1e2e'		bgl='313244'		fg='d9e0ee'

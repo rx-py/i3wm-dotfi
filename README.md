@@ -58,4 +58,5 @@ The following configuration files are included in this repository:
 
 
 nvim theme = [ayu-dark](https://github.com/Shatur/neovim-ayu)
+
 But from the screenshots, I have [transparency](https://github.com/xiyaowong/transparent.nvim) toggled so the ayu-dark theme isn't accuratelydisplayed. 
