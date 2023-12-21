@@ -1,14 +1,14 @@
 {
-    "label" : "lock",
+    "label" : "hypr-lock",
     "action" : "zsh /$HOME/.config/wlogout/scripts/lockscreen.sh",
-    "text" : "Lock",
+    "text" : "hypr-lock",
     "keybind" : "l"
 }
 
 {
-    "label" : "logout",
+    "label" : "hypr-logout",
     "action" : "hyprctl dispatch exit 0",
-    "text" : "Logout",
+    "text" : "hypr-logout",
     "keybind" : "e"
 }
 
@@ -27,10 +27,10 @@
 }
 
 {
-    "label" : "suspend",
-    "action" : "systemctl suspend",
-    "text" : "Suspend",
-    "keybind" : "u"
+    "label" : "i3-lock",
+    "action" : "i3lock",
+    "text" : "i3-lock",
+    "keybind" : "i"
 }
 
 {
