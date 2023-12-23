@@ -78,7 +78,7 @@ nvim theme = [ayu-dark](https://github.com/Shatur/neovim-ayu)
 But from the screenshots, I have [transparency](https://github.com/xiyaowong/transparent.nvim) toggled so the ayu-dark theme isn't accurately displayed.
 
 
-nvim with ayu-dark theme:
+nvim with ayu-dark theme:<br>
 ![Neovim-ayu-dark](wal/nvim-ayu.png)
 
 
