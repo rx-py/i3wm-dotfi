@@ -41,7 +41,7 @@ cd yay
 3.  Now we can build and install yay:
 ```makepkg -si```
 
-This command will then prompt you to review the build process as well as its dependencies.
+This command will then prompt you to review the build process as well as its dependencies. <br>
 
 
 
@@ -61,6 +61,7 @@ cd i3wm-dotfi
 ```bash
 cp -R ./. ~/
 ```
+<br>
 
 ## Configuration Files
 
@@ -68,7 +69,7 @@ The following configuration files are included in this repository:
 
 - `.configs`: This folder holds the main configs for the apps I use along with i3wm.
 - `scripts`: This folder contains system scripts that allows for better functionality.
-- `wal`: This folder would be where all images are stored
+- `wal`: This folder would be where all images are stored <br>
 
 
 
@@ -78,4 +79,7 @@ But from the screenshots, I have [transparency](https://github.com/xiyaowong/tra
 
 
 nvim with ayu-dark theme:
-![Neovim-ayu-dark](~/.git-repos/i3wm-dotfi/wal/nvim-ayu.png)
+![Neovim-ayu-dark](wal/nvim-ayu.png)
+
+
+
