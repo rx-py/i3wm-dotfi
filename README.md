@@ -14,7 +14,6 @@ This repo holds the dotfiles for my i3-wm setup on Arch Linux which I intend to 
 
 
 
-
 ## Screenshots
 ![Screenshot](wal/i3screen.png)
 ![Screenshot](wal/page2.png)
@@ -76,3 +75,7 @@ The following configuration files are included in this repository:
 nvim theme = [ayu-dark](https://github.com/Shatur/neovim-ayu)
 
 But from the screenshots, I have [transparency](https://github.com/xiyaowong/transparent.nvim) toggled so the ayu-dark theme isn't accurately displayed.
+
+
+nvim with ayu-dark theme:
+![Screenshot](wal/nvim-ayu.png)
