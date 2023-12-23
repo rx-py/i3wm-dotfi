@@ -78,4 +78,4 @@ But from the screenshots, I have [transparency](https://github.com/xiyaowong/tra
 
 
 nvim with ayu-dark theme:
-![Screenshot](wal/nvim-ayu.png)
+![Neovim-ayu-dark](~/.git-repos/i3wm-dotfi/wal/nvim-ayu.png)
