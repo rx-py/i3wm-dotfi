@@ -30,18 +30,19 @@ yay -Syu base-devel NetworkManager network-manager-applet vim feh dunst zsh pami
 ```
 
 And if you don't already have yay installed, you can follow this guide:
-1. we first need to ensure that ```git``` and ```base-deve``` installed. These are required for building packages from the AUR.
+1. we first need to ensure that ```git``` and ```base-devel``` installed. These are required for building packages from the AUR.
 ```sudo pacman -S git base-devel```
 
-2. Use "git" to clone yay repository from the AUR
+2. Use ```git``` to clone yay repository from the AUR
 ```bash
-git clone https://aur.archlinux.org/yay.git
+git clone https://aur.archlinux.org/yay.git &&
 cd yay
 ```
 
 3.  Now we can build and install yay:
 ```makepkg -si```
-"This command will then prompt you to review the build process as well as its dependencies."
+
+This command will then prompt you to review the build process as well as its dependencies.
 
 
 
